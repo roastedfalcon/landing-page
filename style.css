@@ -1,0 +1,41 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+
+#box-one {
+    background-color: #1f2937;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header ul {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+#box-three {
+    background-color: #e5e7eb;
+}
+
+#footer {
+    background-color: #1f2937;
+}
