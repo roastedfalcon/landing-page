@@ -8,18 +8,28 @@ body {
 }
 
 h1 {
-    font-size: 36px;
+    font-size: 48px;
     color: #f9faf8;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
 }
 
 h3 {
     font-size: 24px;
     color: #f9faf8;
+    margin: 0;
+    padding: 0;
 }
 
 p {
     font-size: 18px;
     color: #e5e7eb;
+    
 }
 
 .gray-text {
@@ -49,19 +59,28 @@ button {
     background-color: #3882f6;
     color: white;
     border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    border-width: 0;
 }
 
 .box-one {
     background-color: #1f2937;
     flex: auto;
-    
+    padding-bottom: 90px;
+}
+
+.box-one-container {
+    max-width: 1100px;
+    margin: auto;
 }
 
 #header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 20px 0;
     
 }
 
@@ -72,10 +91,12 @@ button {
 
 .box-one-content {
     display: flex;
+    margin-top: 50px;
 }
 
 .box {
     flex: 1;
+    margin-right: 40px;
 }
 
 .img-box {
@@ -83,10 +104,20 @@ button {
     background-color: gray;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .box-two {
     flex: auto;
+    padding: 8px 0 90px;
+}
+
+.box-two-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .empty-box {
@@ -100,24 +131,60 @@ button {
 .box-three {
     background-color: #e5e7eb;
     flex: auto;
+    padding: 100px 0 80px;
+}
+
+.box-three-container {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-source {
+    font-weight: 700;
+    align-self: flex-end;
 }
 
 .box-four {
     flex: auto;
+    padding: 90px 0;
 }
 
 .blue-box {
     background-color: #3882f6;
     display: flex;
     justify-content: space-around;
+    padding: 40px 0;
+    border-radius: 8px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.blue-box-container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-margin {
+    margin: 0;
 }
 
 .sign-up-bot {
     border: 2px solid white;
-    
 }
 
 #footer {
     background-color: #1f2937;
     color: #e5e7eb;
+    text-align: center;
+    padding: 30px;
 }
